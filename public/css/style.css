@@ -1,0 +1,532 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f1e6;
+}
+
+header.header-top {
+
+    position: relative;
+}
+
+.navbar-expand-lg {
+    background: rgba(255, 255, 255, .85);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+
+}
+input#email{
+    width: 840px;
+    height: 45px;
+    margin: 30px 5px 30px 30px;
+    border: rgba(86,70,52,0.44) solid 1px;
+}
+a#sub{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    text-decoration: none;
+    background: #bce623;
+    color: #fff;
+    font-size: 16px;
+}
+a#sub:hover{
+    background: #584a3e;
+}
+.navbar-brand{
+    color: #564634;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+   
+}
+
+.bg-light{
+    position: relative;
+    bottom: 50px;
+    z-index: 2;
+}
+
+.nav-item {
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.nav-link {
+    color: #bce623;
+}
+
+.nav-link:hover {
+    color: #bce623;
+}
+
+.nav-link.sm {
+    color: #6b5f53;
+}
+
+.nav-link.sm:hover {
+    color: #bce623;
+}
+
+.vacation {
+
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.vacation h3.nameV1 {
+    font-size: 3em;
+}
+
+.vacation h1.nameV2 {
+    font-size: 8em;
+    font-weight: bold;
+}
+
+.vacation a.book {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    text-decoration: none;
+    background: #bce623;
+    color: #fff;
+    font-size: 16px;
+}
+
+.vacation a.book:hover {
+
+    background: #564634;
+
+}
+
+.main-1 {
+    padding: 100px 0;
+    text-align: center;
+
+}
+
+.cot {
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+
+.main-1 img {
+    width: 100%;
+}
+
+.main-1 a.content {
+    display: inline-block;
+    color: #d2c970;
+    margin: 10px 0;
+    font-size: 2em;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+
+}
+
+.main-1 p {
+    color: #b2ad9d;
+    font-size: 20px;
+}
+
+.main-1 a.content:hover {
+    color: #564634;
+}
+
+.main-2 {
+    padding-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-2.content-2 {
+    margin: 100px 0;
+}
+
+.main-2 h2.title-1 {
+    padding-top: 50px;
+    font-size: 45px;
+    display: block;
+    color: #564634;
+    font-weight: 300;
+
+}
+
+.main-2 p.p-1 {
+    padding-top: 9px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #564634
+}
+
+.main-2 p.p-2 {
+    color: #564634;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-2 a.more {
+    display: inline-block;
+    color: #564634;
+    background: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+
+.main-2 a.more:hover {
+    color: #fff;
+    background: #564634;
+}
+
+/**/
+.main-3 {
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-3.content-2 {
+    margin: 100px 0;
+}
+
+.main-3 h2.title-1 {
+    padding-top: 50px;
+    font-size: 45px;
+    display: block;
+    color: #564634;
+    font-weight: 300;
+
+}
+
+.main-3 p.p-1 {
+    padding-top: 9px;
+    font-size: 20px;
+    color: #564634
+}
+
+.main-3 p.p-2 {
+    font-size: 15px;
+    color: #564634;
+    padding-top: 13px;
+    font-weight: 500;
+}
+
+.main-3 a.more {
+    display: inline-block;
+    color: #564634;
+    background: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-top: 18px;
+    margin-bottom: 50px;
+}
+
+.main-3 a.more:hover {
+    color: #fff;
+    background: #564634;
+}
+
+/* Booking */
+.booking {
+    margin-top: 71px;
+    position: relative;
+    width: 100%;
+    height: 451px;
+    background: 0vmax url(../images/Layer-146.webp);
+
+}
+
+.main-booking {
+    position: absolute;
+    background: rgba(0, 0, 0, .35);
+    left: 190px;
+    right: 190px;
+    top: 100px;
+    bottom: 100px;
+    padding: 50px 0;
+    
+}
+
+.booking img.imgbooking {
+    height: 451px;
+    width: 100%;
+    position: absolute;
+
+}
+
+.booking h2.booking-1 {
+    color: #fff;
+    letter-spacing: 7.3px;
+    font-size: 75px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.booking h3.booking-2 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.3em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.booking a.booking-3 {
+    color: rgb(168, 215, 0);
+    font-size: inherit;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: dashed;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Our apartments */
+.our-apartments {
+    padding-top: 70px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.our-apartments h3.our {
+    color: #6b5f53;
+    font-weight: 300;
+    font-size: 45px;
+    text-align: center;
+}
+
+.menu-our {
+    margin: 30px 0;
+}
+
+a#active {
+    display: inline-block;
+    background: #bce623;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+a.bar-our {
+    text-decoration: none;
+    display: inline-block;
+    background: #6b5f53;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 14px;
+    margin-right: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+a.bar-our:hover {
+    display: inline-block;
+    background: #bce623;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.our-apartments1 img.img-our {
+    margin-right: calc(-20px);
+    padding-bottom: 20px;
+    width: 303px;
+    height: 269px;
+    position: relative;
+
+}
+
+/* .our-apartments1 img.img-our:hover {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(168,215,0,0.84);
+    position: absolute;
+}  */
+.our-apartments2{
+    margin-top: 80px;
+    width: 100%;
+    height: 470px;
+    background: 0vmax url(../images/Layer-168.jpg);
+    position: relative;
+}
+.main{
+    padding-top: 80px;
+   
+}
+.our-apartments2 h5.march-int{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.our-apartments2 h6.main-m{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.our-apartments2 p.main-ct{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 30px;
+    border-bottom: #fff 1px solid;
+}
+.our-apartments2 a.btn-more{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #564634;
+    background: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    float:right ;
+    margin-top: -30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.our-apartments2 a.btn-more:hover{
+    background: #a8d700;
+    color: #fff;
+}
+/* Contactd_t */
+.contacts_t{
+    margin: 90px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.contacts_t h1.content{
+    color: #564634;
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom:  #e8e5d3 solid 3px;
+}
+.contacts_t p.content-1{
+    color: #564634;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6b5f53;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom:  #e8e5d3 solid 3px;
+}
+.contacts_t a.info{
+    text-decoration: none;
+    color: #a8d700;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contacts_t a.info:hover{
+   color: #6b5f53;
+}
+.bgr{
+    width: 100%;
+    height: 300px;
+    background:round url(../images/Layer-164.webp);
+    position: relative;
+ 
+}
+img.sam{
+    width: 240px;
+    height: 160px;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+}
+.contsam{
+    position: absolute;
+    top: 40px;
+    
+}
+h5.ctsam{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #564634;
+    
+
+}
+p.sam{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #72665a;
+}
+a.more{
+    text-decoration: none;
+    color: #584a3e;
+    font-weight: 600;
+    margin-top: 8px;
+      float:right;
+      margin-right: 100px;
+}
+a.more:hover{
+    color:  #a8d700;
+   
+}
+/* Footer */
+.ft{
+    margin-top: 100px;
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+.ft p.ft-1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+
+}
+.ft p.ft-1 a.ftmxh{
+    text-decoration: none;
+    color: #584a3e;
+    font-size: 23px;
+   
+}
+
+.ft a.ft-2{
+text-decoration: none;
+color: #6b5f53;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+margin-top: 100px;
+padding-top: 100px;
+}
+.ft p.ft3{
+    font-size: 23px;
+    color: #6b5f53;
+    font-family: 'Open Sans', sans-serif;
+}
+.ft a.ft4{
+    text-decoration: none;
+    color: #6b5f53;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ft p.ft-1 a.ftmxh:hover,.ft a.ft-2:hover,.ft a.ft4:hover{
+    color: #a8d700;
+}
+.imgfirt{
+    width: 100%;
+    height: 800px;
+   
+}
+.carouselExampleDark{
+    position: relative;
+}
+
